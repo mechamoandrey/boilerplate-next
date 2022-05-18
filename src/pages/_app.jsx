@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-import GlobalStyles from 'styles/global'
+import GlobalStyles from 'styles/global';
 
 // eslint-disable-next-line react/prop-types
 function App({ Component, pageProps }) {
@@ -20,7 +20,7 @@ function App({ Component, pageProps }) {
       <GlobalStyles />
       <Component {...pageProps} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

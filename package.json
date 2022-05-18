@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --max-warnings=0",
+    "lint": "next lint",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook",
     "generate": "yarn plop --plopfile generators/plopfile.js"
@@ -16,7 +16,8 @@
     "next-pwa": "^5.5.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.17.12",
