@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint --max-warnings=0",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate": "yarn plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -35,6 +36,7 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "husky": "^8.0.1",
     "lint-staged": ">=10",
+    "plop": "^3.1.0",
     "prettier": "2.6.2"
   },
   "lint-staged": {
