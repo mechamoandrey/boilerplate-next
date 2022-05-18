@@ -9,15 +9,15 @@
     "lint": "next lint",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook",
-    "generate": "yarn plop --plopfile generators/plopfile.js"
+    "generate": "yarn plop --plopfile generators/plopfile.js",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.1.6",
     "next-pwa": "^5.5.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "styled-components": "^5.3.5",
-    "prepare": "husky install"
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.17.12",

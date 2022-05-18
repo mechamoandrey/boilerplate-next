@@ -1,13 +1,13 @@
-import Main from '.';
+import Main from '.'
 
 export default {
   title: 'Main',
-  component: Main,
-};
+  component: Main
+}
 
-export const Basic = (args) => <Main {...args} />;
+export const Basic = (args) => <Main {...args} />
 
 Basic.args = {
   title: 'title basic',
-  description: 'description',
-};
+  description: 'description'
+}
